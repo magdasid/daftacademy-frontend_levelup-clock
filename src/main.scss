@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Sacramento|Zilla+Slab+Highlight');
+$logo-font: 'Roboto';
+$text-font: 'Zilla Slab Highlight';
+
+$color-mint: #d3d3d3;
+
+* {
+    box-sizing: border-box;
+}
+html, body {
+    background-color: $color-mint;
+    height: 100%;
+}
+.header {
+    font-size: 60px;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.clock-box {
+    padding: 1%;
+    font-size: 72px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: $text-font;
+}
